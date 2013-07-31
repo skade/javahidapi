@@ -1,6 +1,6 @@
 # Javahidapi
 
-TODO: Write a gem description
+This gem wraps [javahidapi](http://code.google.com/p/javahidapi/) and adds one convenience methods and a correct teardown method.
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See project page.
+
+## License
+
+Javahidapis licensing applies: http://code.google.com/p/javahidapi/
 
 ## Contributing
 
