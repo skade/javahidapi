@@ -1,11 +1,6 @@
 require "javahidapi/version"
+require 'hidapi-1.1.jar'
 
-begin
-  require './hidapi-1.1.jar'
-rescue LoadError
-  warn("put hidapi-1.1.jar in your classpath to use a game controller")
-  return
-end
 
 com.codeminders.hidapi.ClassPathLibraryLoader.loadNativeHIDLibrary
 
