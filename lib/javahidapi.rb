@@ -5,7 +5,7 @@ require 'hidapi-1.1.jar'
 com.codeminders.hidapi.ClassPathLibraryLoader.loadNativeHIDLibrary
 
 at_exit do
-  HIDManager.instance.release
+  com.codeminders.hidapi.HIDManager.instance.release
 end
 
 module Javahidapi
